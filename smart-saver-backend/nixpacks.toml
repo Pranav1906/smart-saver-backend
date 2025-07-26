@@ -5,7 +5,6 @@ nixPkgs = ['curl', 'ffmpeg', 'python3', 'python3Packages.pip']
 cmds = [
   "pip install --upgrade pip",
   'pip3 install --user yt-dlp'
-  "python3 -m pip install --upgrade yt-dlp"
 ]
 
 [phases.build]
